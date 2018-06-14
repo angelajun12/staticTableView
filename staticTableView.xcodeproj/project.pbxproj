@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		C842DB4720D06C900009B1CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C842DB4620D06C900009B1CC /* AppDelegate.swift */; };
-		C842DB4920D06C900009B1CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C842DB4820D06C900009B1CC /* ViewController.swift */; };
 		C842DB4C20D06C900009B1CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C842DB4A20D06C900009B1CC /* Main.storyboard */; };
 		C842DB4E20D06C900009B1CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C842DB4D20D06C900009B1CC /* Assets.xcassets */; };
 		C842DB5120D06C900009B1CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C842DB4F20D06C900009B1CC /* LaunchScreen.storyboard */; };
@@ -17,7 +16,6 @@
 /* Begin PBXFileReference section */
 		C842DB4320D06C900009B1CC /* staticTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = staticTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C842DB4620D06C900009B1CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C842DB4820D06C900009B1CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C842DB4B20D06C900009B1CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C842DB4D20D06C900009B1CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C842DB5020D06C900009B1CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,7 +53,6 @@
 			isa = PBXGroup;
 			children = (
 				C842DB4620D06C900009B1CC /* AppDelegate.swift */,
-				C842DB4820D06C900009B1CC /* ViewController.swift */,
 				C842DB4A20D06C900009B1CC /* Main.storyboard */,
 				C842DB4D20D06C900009B1CC /* Assets.xcassets */,
 				C842DB4F20D06C900009B1CC /* LaunchScreen.storyboard */,
@@ -136,7 +133,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C842DB4920D06C900009B1CC /* ViewController.swift in Sources */,
 				C842DB4720D06C900009B1CC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,7 +277,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Angela.staticTableView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -296,7 +292,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Angela.staticTableView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
